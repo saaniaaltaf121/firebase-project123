@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:  10px 100px;
+    background-color: rgb(152, 78, 222);
+    
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    font-size: 1.8rem;
+    color: white;
+    user-select: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    
+    
+}
+.btn a:hover{
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.main{
+    height: 40px;
+    
+    margin-bottom: 480px;
+    margin-right: 770px;
+    border: 2px solid white;
+}
+.main h4{
+    font-weight: bolder;
+}
+.blogs{
+    height: 100px;
+    width: 2000px;
+    position: relative;
+    margin-bottom: 440px;
+}
+.allblogs{
+    width: auto;
+    height: 50px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* padding:  10px 100px; */
+    background-color: rgb(152, 78, 222);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    font-size: 1.8rem;
+    color: white;
+    user-select: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    
+    
+}
+.btn a:hover{
+    background-color: transparent;
+    color: #fff;
+
+}
+.wrapper{
+   
+    height: 100px;
+    width: 1200px;
+    background: rgba(255, 255, 255, .5);
+    padding-bottom: 500px;
+    padding-left: 20px;
+    border: 2px solid rgba(255, 255, 255, .5);
+}
+.box{
+    padding-top: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 30 rgba(0, 0, 0, .5);
+}
